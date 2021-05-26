@@ -1,16 +1,31 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PrasentComponent } from './prasent/prasent.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+import { WomenComponent } from './women/women.component';
+import { MenComponent } from './men/men.component';
+import { HomeComponent } from './home/home.component';
+import { OffersComponent } from './offers/offers.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PrasentComponent,
+    WomenComponent,
+    MenComponent,
+    HomeComponent,
+    OffersComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule,
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

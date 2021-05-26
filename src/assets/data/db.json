@@ -1,0 +1,47 @@
+ 
+ [
+    {
+    "name": "dress1",
+    "category": "silk",
+    "images": "https://productimages.hepsiburada.net/s/19/280-413/9826975907890.jpg?v1",
+    "brand": "neerus",
+    "price": "240.0000"
+    },
+    {
+    "name": "dress2",
+    "category": "silk",
+    "images": "https://productimages.hepsiburada.net/s/19/280-413/9826975907890.jpg?v1",
+    "brand": "neerus",
+    "price": "259.499828399639"
+    },
+    {
+    "name": "dress3",
+    "category": "silk",
+    "images:":"https://productimages.hepsiburada.net/s/19/280-413/9826975907890.jpg?v1",
+    "brand": "neerus",  
+    "price": "4241.499828399639"
+    },
+    {
+    "name": "dress4",
+    "category": "silk",
+    "images": "https://productimages.hepsiburada.net/s/19/280-413/9826975907890.jpg?v1",
+    "brand": "neerus",
+    "price": "424.499"
+    },
+    {
+    "name": "dress5",
+    "category": "silk",
+    "images": "https://productimages.hepsiburada.net/s/19/280-413/9826975907890.jpg?v1",
+    "brand": "neerus",
+    "price": "924.500"
+    },
+    {
+    "name": "dress6",
+    "category": "silk",
+    "images": "https://productimages.hepsiburada.net/s/19/280-413/9826975907890.jpg?v1",
+    "brand": "neerus",
+    "price":" 624.499"
+    }
+    
+]
+ 

@@ -1,0 +1,34 @@
+
+.main-card {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    
+  }
+  mat-card {
+    
+    color: rgba(0, 0, 0, 0.87);
+    height: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color:darkgray;
+  }
+  .ulogo {
+    height: 40px;
+    width: 200px;
+  }
+  .nav-list{
+      display:list-item;
+      list-style: none;
+  }
+  .nav1 {
+    width: 100%;
+    justify-content: center;
+    height: 5%;
+    margin: 0px;
+    color: black;
+    background-color:white ;
+    display:flex;
+    gap: 10px;
+  }
