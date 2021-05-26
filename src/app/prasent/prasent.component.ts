@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
+import{Router} from '@angular/router'
 @Component({
   selector: 'app-prasent',
   templateUrl: './prasent.component.html',
@@ -7,7 +8,7 @@ import { ApiService } from '../api.service';
 })
 export class PrasentComponent implements OnInit {
 
-  constructor(private api: ApiService) { }
+  constructor(private api: ApiService,private _route:Router) { }
      dressDesc:any=[];
      cartItems:any=[];
      
@@ -35,6 +36,10 @@ export class PrasentComponent implements OnInit {
   cartData(selectedObj:any){
     this.cartItems.push(selectedObj);
     alert(this.cartItems.length);
+    }
+    itemList()
+    {
+      
     }
 
 }
